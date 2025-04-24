@@ -1,0 +1,563 @@
+/* Global styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Apply border-box globally */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark);
+  color: var(--text-primary);
+}
+
+/* Color variables */
+:root {
+  --primary: #6993FF;
+  --primary-light: #87A9FF;
+  --secondary: #7EAACD;
+  --dark: #F3F6FF;
+  --dark-gray: #E4E9F5;
+  --mid-gray: #D4D9E4;
+  --light-gray: #F1F1F5;
+  --lightest: #FFFFFF;
+  --accent: #FFA27B;
+  --success: #4CAF50;
+  --warning: #FFCC66;
+  --error: #FF7A7A;
+  --text-primary: #2A3254;
+  --text-secondary: #5A6785;
+  --text-light: #8B93A8;
+  --shadow: rgba(42, 50, 84, 0.1);
+}
+
+/* App layout */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: var(--lightest);
+  /* Restore background */
+  padding: 8px 24px;
+  border-bottom: 1px solid var(--dark-gray);
+  /* box-shadow: 0 2px 4px var(--shadow); */
+  /* Keep shadow removed for now */
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  /* Match area header text color */
+}
+
+.App-main {
+  flex: 1;
+  padding: 6px;
+  overflow: hidden;
+  /* position: relative; */
+  /* Removed */
+}
+
+.processing-container {
+  display: flex;
+  gap: 6px;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Area container base style */
+.area-container {
+  display: flex;
+  /* Keep as flex container */
+  flex-direction: column;
+  /* Keep vertical */
+  background-color: var(--lightest);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px var(--shadow);
+  overflow: hidden;
+  /* Add overflow hidden here as a safeguard */
+  border: 1px solid var(--dark-gray);
+}
+
+/* Input area specific styles */
+.input-area {
+  flex-basis: 40%;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 300px;
+}
+
+/* Style the header within input area */
+.input-area .area-header {
+  /* display: flex; */
+  /* Moved to general .area-header */
+  justify-content: space-between;
+  /* align-items: center; */
+  /* Moved to general .area-header */
+  /* position: relative; */
+  /* Remove test */
+  /* z-index: 1; */
+  /* Remove test */
+}
+
+/* Text Area Content (General Style) */
+.area-content {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  overflow-y: auto;
+  overflow-x: auto;
+  position: relative;
+  padding: 16px 20px;
+  width: 100%;
+  display: flex;
+  /* Add flex display */
+  flex-direction: column;
+  /* Stack children vertically */
+}
+
+/* Specific padding/styles for right-side content areas */
+.processing-area .area-content,
+.output-area .area-content {
+  padding: 20px;
+  /* Consistent padding for processing and output areas */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+/* Specific padding for left-side content area */
+.input-area .area-content {
+  padding: 20px;
+  /* Match padding with other areas */
+}
+
+.input-area .text-area {
+  padding: 0;
+  /* Remove textarea padding since parent has padding */
+  border: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: transparent;
+  color: var(--text-primary);
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  word-break: break-word;
+  outline: none;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.input-area .text-area:empty:before {
+  content: attr(placeholder);
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.input-area .text-area:focus {
+  outline: none;
+}
+
+/* Remove absolute positioning styles for the old button */
+/* .input-area-button { ... } */
+
+/* Styles for the new header button */
+.header-button {
+  background-color: transparent;
+  /* Transparent background */
+  color: var(--primary);
+  /* Primary color text */
+  border: 1px solid var(--primary);
+  /* Primary color border */
+  padding: 3px 12px;
+  /* Slightly reduce vertical padding */
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  /* Add transitions */
+}
+
+.header-button:hover {
+  background-color: var(--light-gray);
+  /* Light gray background on hover */
+  border-color: var(--primary-light);
+  /* Slightly lighter border */
+}
+
+.header-button:disabled {
+  background-color: transparent;
+  color: var(--mid-gray);
+  /* Gray text */
+  border-color: var(--mid-gray);
+  /* Gray border */
+  cursor: not-allowed;
+}
+
+/* Right side container (Processing + Output) */
+.processing-output-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  max-width: 60%;
+  overflow: hidden;
+}
+
+/* Individual Processing and Output areas */
+.processing-area {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Text Area Header (General Style) */
+.area-header {
+  padding: 0 8px;
+  /* background-color: var(--light-gray); */
+  border-bottom: 1px solid var(--dark-gray);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  height: 40px;
+  /* Increase height back to 40px */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Add space-between justification */
+  box-sizing: border-box;
+  flex-shrink: 0;
+  /* Add this to ensure header doesn't shrink */
+}
+
+/* Loading State */
+.loading-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  /* Ensure pre takes full width */
+}
+
+.error-banner {
+  background-color: var(--error);
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.error-banner p {
+  color: var(--lightest);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.error-banner button {
+  background: none;
+  border: none;
+  color: var(--lightest);
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.error-banner button:hover {
+  opacity: 1;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-light);
+  text-align: center;
+  padding: 2rem;
+}
+
+.empty-state small {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.processing-status {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--primary-light);
+  border-radius: 4px;
+  color: var(--lightest);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Loading Overlay */
+/* .loading-overlay { ... } */
+/* .loading-overlay::after { ... } */
+
+/* Content Loading Animation (Skeleton Style) */
+/* .content-loading-animation { ... } */
+/* .skeleton-bar { ... } */
+/* .skeleton-bar.short { ... } */
+/* .skeleton-bar.medium { ... } */
+
+/* Card-specific Loading Overlay (used by all 3 cards now) */
+.card-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  /* Increased z-index */
+  border-radius: 6px;
+  /* Match card border-radius */
+  cursor: wait;
+}
+
+.card-loading-overlay::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--light-gray);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Ensure spin animation is defined */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add styles for the processing status bar */
+.processing-status-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 0 16px;
+  margin: 0 0 8px 0;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-align: left;
+  border: 1px solid transparent;
+  display: flex;
+  height: 32px;
+  line-height: 32px;
+  background-color: #e6f7e6;
+}
+
+.processing-status-bar p {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  font-size: 0.85rem;
+  /* Slightly reduce font size to match new compact style */
+}
+
+.processing-status-bar.success {
+  background-color: #e6f7e6;
+  border-color: #b3e0b3;
+  color: #206120;
+}
+
+/* Add styles for the content below the status bar */
+.content-below-status {
+  flex: 1;
+  /* Take remaining space */
+  overflow: auto;
+  /* Allow scrolling */
+  padding: 0 20px;
+  /* Convert margins to padding */
+  width: 100%;
+  /* Take full width */
+  max-width: 100%;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* 处理结果区域样式 */
+.processing-result {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.processing-result h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.1em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+/* 处理步骤样式 */
+.processing-steps {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.steps-content {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* 文件信息样式 */
+.file-info {
+  background: #fff;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-item label {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.info-item .file-path {
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #0066cc;
+}
+
+/* 内容统计样式 */
+.content-stats {
+  background: #fff;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.stat-item label {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.stat-item span {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+/* DITA内容预览样式 */
+.dita-preview {
+  background: #fff;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.content-preview {
+  margin: 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+
+  .info-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .processing-result {
+    padding: 10px;
+  }
+}

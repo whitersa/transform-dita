@@ -1,0 +1,193 @@
+<topic class="- topic/topic " domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" id="转换文档">
+<title class="- topic/title " >转换文档</title>
+<body class="- topic/body " >
+<table class='- topic/table '>
+	<tgroup class="- topic/tgroup " cols="9">
+		<colspec class="- topic/colspec " colname="c1" colnum="1" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c2" colnum="2" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c3" colnum="3" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c4" colnum="4" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c5" colnum="5" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c6" colnum="6" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c7" colnum="7" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c8" colnum="8" colwidth="11%"/>
+		<colspec class="- topic/colspec " colname="c9" colnum="9" colwidth="11%"/>
+		<thead class="- topic/thead ">
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left">编号</entry>
+				<entry class="- topic/entry " colname="c2" align="left">P</entry>
+				<entry class="- topic/entry " colname="c3" align="left">任务名称</entry>
+				<entry class="- topic/entry " colname="c4" align="left">截止日期</entry>
+				<entry class="- topic/entry " colname="c5" align="left">指派给</entry>
+				<entry class="- topic/entry " colname="c6" align="left">任务状态</entry>
+				<entry class="- topic/entry " colname="c7" align="left">消耗(h)</entry>
+				<entry class="- topic/entry " colname="c8" align="left">剩余(h)</entry>
+				<entry class="- topic/entry " colname="c9" align="left">操作</entry>
+			</row>
+		</thead>
+		<tbody class="- topic/tbody ">
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18429</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">计划</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18429&amp;onlybody=yes" format="html" scope="external">【每月发版20250318】【车辆权益+车型权益】权益内容进行拆分，分成质保权益+保养权益</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">2025-03-18</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">姜圆圆</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">2</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18429&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18429&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18429&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18429" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18546</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18546&amp;onlybody=yes" format="html" scope="external">SBOM发布索赔新增的配件数据需要显示维护人，维护时间</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">黄琼</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">未开始</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">1</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18546&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=start&amp;taskid=18546&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18546&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=finish&amp;taskid=18546&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18546" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18597</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">计划</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18597&amp;onlybody=yes" format="html" scope="external">【每月发版0421】【物流运费】店端，索赔单内物流运费详情，发货方地址设置成灰色不可编辑，收货方还是保持可编辑</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">黄琼</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">1</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18597&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18597&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18597&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18597" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18598</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18598&amp;onlybody=yes" format="html" scope="external">索赔工时库两个字段增加修正值逻辑</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">姜圆圆</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">2</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18598&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18598&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18598&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18598" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18601</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18601&amp;onlybody=yes" format="html" scope="external">SBOM下发的工时库标识字段增加默认值否</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">黄琼</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">未开始</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">1</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18601&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=start&amp;taskid=18601&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18601&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=finish&amp;taskid=18601&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18601" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18612</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18612&amp;onlybody=yes" format="html" scope="external">【索赔单】工单接口增加异地电池维修标记</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">姜圆圆</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">未开始</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">3</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18612&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=start&amp;taskid=18612&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18612&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=finish&amp;taskid=18612&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18612" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18627</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18627&amp;onlybody=yes" format="html" scope="external">【每月发版0421】【服务站信息管理】经营地址和交货地址修改成可编辑</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">黄琼</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">1</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18627&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18627&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18627&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18627" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18641</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18641&amp;onlybody=yes" format="html" scope="external">【道路救援】道路救援功能优化</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines "></lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">未开始</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18641&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=start&amp;taskid=18641&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18641&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=finish&amp;taskid=18641&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18641" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18677</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18677&amp;onlybody=yes" format="html" scope="external">【易时接口】增加同步服务站物流运费标识的接口及数据推送功能</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">陈亦易</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">4</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18677&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18677&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18677&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18677" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18679</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18679&amp;onlybody=yes" format="html" scope="external">【索赔单】增加字段【工单是否涉及异地电池维修】</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">姜圆圆</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">4</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18679&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18679&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18679&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18679" format="html" scope="external"></xref></lines></entry>
+			</row>
+			<row class="- topic/row ">
+				<entry class="- topic/entry " colname="c1" align="left"><lines class="- topic/lines ">18680</lines></entry>
+				<entry class="- topic/entry " colname="c2" align="left"><lines class="- topic/lines "><ph class="- topic/ph ">暂缓</ph></lines></entry>
+				<entry class="- topic/entry " colname="c3" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=view&amp;taskid=18680&amp;onlybody=yes" format="html" scope="external">服务站信息管理导入增加字段</xref></lines></entry>
+				<entry class="- topic/entry " colname="c4" align="left"><lines class="- topic/lines ">0000-00-00</lines></entry>
+				<entry class="- topic/entry " colname="c5" align="left"><lines class="- topic/lines ">姜圆圆</lines></entry>
+				<entry class="- topic/entry " colname="c6" align="left"><lines class="- topic/lines ">已完成</lines></entry>
+				<entry class="- topic/entry " colname="c7" align="left"><lines class="- topic/lines ">1</lines></entry>
+				<entry class="- topic/entry " colname="c8" align="left"><lines class="- topic/lines ">0</lines></entry>
+				<entry class="- topic/entry " colname="c9" align="left"><lines class="- topic/lines "><xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=assignto&amp;projectid=753&amp;taskid=18680&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=activate&amp;taskid=18680&amp;onlybody=yes" format="html" scope="external"></xref> <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=recordestimate&amp;taskid=18680&amp;onlybody=yes" format="html" scope="external"></xref> 
+
+ <xref class="- topic/xref " href="https://pms.servision.com.cn/index.php?m=task&amp;f=edit&amp;taskid=18680" format="html" scope="external"></xref></lines></entry>
+			</row>
+		</tbody>
+	</tgroup>
+</table>
+</body>
+
+
+</topic>
+

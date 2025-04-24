@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?path2rootmap-uri ./?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="转换文档">
+<title>转换文档</title>
+<body>
+<p>
+	编号
+</p>
+<p>
+	P
+</p>
+<p>
+	任务名称
+</p>
+<p>
+	截止日期
+</p>
+<p>
+	指派给
+</p>
+<p>
+	任务状态
+</p>
+<p>
+	消耗(h)
+</p>
+<p>
+	剩余(h)
+</p>
+<p>
+	操作
+</p>
+<p>
+	18429
+</p>
+<p>
+	<ph>计划</ph>
+</p>
+<p>
+	<ph>【每月发版20250318】【车辆权益+车型权益】权益内容进行拆分，分成质保权益+保养权益</ph>
+</p>
+<p>
+	2025-03-18
+</p>
+<p>
+	姜圆圆
+</p>
+<p>
+	已完成
+</p>
+<p>
+	2
+</p>
+<p>
+	0
+</p>
+<p>
+	18546
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>SBOM发布索赔新增的配件数据需要显示维护人，维护时间</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	黄琼
+</p>
+<p>
+	未开始
+</p>
+<p>
+	0
+</p>
+<p>
+	1
+</p>
+<p>
+	18597
+</p>
+<p>
+	<ph>计划</ph>
+</p>
+<p>
+	<ph>【每月发版0421】【物流运费】店端，索赔单内物流运费详情，发货方地址设置成灰色不可编辑，收货方还是保持可编辑</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	黄琼
+</p>
+<p>
+	已完成
+</p>
+<p>
+	1
+</p>
+<p>
+	0
+</p>
+<p>
+	18598
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>索赔工时库两个字段增加修正值逻辑</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	姜圆圆
+</p>
+<p>
+	已完成
+</p>
+<p>
+	2
+</p>
+<p>
+	0
+</p>
+<p>
+	18601
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>SBOM下发的工时库标识字段增加默认值否</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	黄琼
+</p>
+<p>
+	未开始
+</p>
+<p>
+	0
+</p>
+<p>
+	1
+</p>
+<p>
+	18612
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>【索赔单】工单接口增加异地电池维修标记</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	姜圆圆
+</p>
+<p>
+	未开始
+</p>
+<p>
+	0
+</p>
+<p>
+	3
+</p>
+<p>
+	18627
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>【每月发版0421】【服务站信息管理】经营地址和交货地址修改成可编辑</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	黄琼
+</p>
+<p>
+	已完成
+</p>
+<p>
+	1
+</p>
+<p>
+	0
+</p>
+<p>
+	18641
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>【道路救援】道路救援功能优化</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	未开始
+</p>
+<p>
+	0
+</p>
+<p>
+	0
+</p>
+<p>
+	18677
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>【易时接口】增加同步服务站物流运费标识的接口及数据推送功能</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	陈亦易
+</p>
+<p>
+	已完成
+</p>
+<p>
+	4
+</p>
+<p>
+	0
+</p>
+<p>
+	18679
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>【索赔单】增加字段【工单是否涉及异地电池维修】</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	姜圆圆
+</p>
+<p>
+	已完成
+</p>
+<p>
+	4
+</p>
+<p>
+	0
+</p>
+<p>
+	18680
+</p>
+<p>
+	<ph>暂缓</ph>
+</p>
+<p>
+	<ph>服务站信息管理导入增加字段</ph>
+</p>
+<p>
+	0000-00-00
+</p>
+<p>
+	姜圆圆
+</p>
+<p>
+	已完成
+</p>
+<p>
+	1
+</p>
+<p>
+	0
+</p>
+<table>
+	<tgroup cols="9">
+		<colspec colname="col1" colnum="1"/>
+		<colspec colname="col2" colnum="2"/>
+		<colspec colname="col3" colnum="3"/>
+		<colspec colname="col4" colnum="4"/>
+		<colspec colname="col5" colnum="5"/>
+		<colspec colname="col6" colnum="6"/>
+		<colspec colname="col7" colnum="7"/>
+		<colspec colname="col8" colnum="8"/>
+		<colspec colname="col9" colnum="9"/>
+		<tbody>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+			<row>
+				<entry align="left" colname="col1"/>
+				<entry align="left" colname="col2"/>
+				<entry align="left" colname="col3"/>
+				<entry align="left" colname="col4"/>
+				<entry align="left" colname="col5"/>
+				<entry align="left" colname="col6"/>
+				<entry align="left" colname="col7"/>
+				<entry align="left" colname="col8"/>
+				<entry align="left" colname="col9"/>
+			</row>
+		</tbody>
+	</tgroup>
+</table>
+</body>
+
+
+</topic>
